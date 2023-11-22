@@ -1,16 +1,9 @@
 const changeWelkomenImage = () => {
-    let option = document.querySelector(".radio-change");
+    let radio = document.getElementById("checked-radio");
     let image = document.getElementById("welkomen-image");
-    console.log(`${option.value}\n${image.src}`);
-    switch(option.value){
-        case 'hamburguer':
-            image.src = "./img/first window/hamburguer.png";
-            break;
-        case 'salad':
-            image.src = "./img/first window/salad.png";
-            break;
-        default:
-            image.src = "./img/first window/hamburguer.png";
-            break;
+    if (radio.checked){
+        image.src = "./../img/first window/hamburguer.png";
+        return;
     }
+    image.src = "./../img/first window/salad.png";
 }
