@@ -1,0 +1,14 @@
+MONTSERRAT
+- Semi bold; > 600
+- Bold; > 700
+- Medium; > 500
+
+INTER
+- Semi bold; > 600
+
+HOW TO IMPORT
+
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@500;600;700&display=swap');

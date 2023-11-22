@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="container">
+    <header class="container-header">
+        <div class="container-header-logo_text">
+            <span>Calculadora IMC</span>
+        </div>
+        <nav class="container-header-navbar">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Calculadora</a></li>
+        </nav>
+    </header>
+    <main class="container-main">
+        <section class="container-main-welkomen">
+            <div class="container-main-welkomen-text_area">
+                <div class="container-main-welkomen-text_area-title">
+                    <span>saiba como<br/>se manter<br/>saudável</span>
+                </div>
+                <div class="container-main-welkomen-text_area-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing<br/>
+                        elit, sed do eiusmod tempor incididunt ut labore et<br/>
+                        dolore magna aliqua. Ut enim ad minim veniam, quis<br/>
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex<br/>
+                        ea commodo consequat. Duis aute irure dolor in<br/>
+                        reprehenderit in voluptate velit esse cillum dolore eu<br/>
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br/>
+                        non proident, sunt in culpa qui officia deserunt mollit<br/>
+                        anim id est laborum.
+                    </p>
+                </div>
+                <button class="welkomen-button">Descubra agora</button>
+            </div>
+            <div class="container-main-welkomen-img_area">
+                <div class="container-main-welkomen-img_area-image">
+                    <img src="./img/first window/hamburguer.png" id="welkomen-image"/>
+                </div>
+                <div class="container-main-welkomen-img_area-changes">
+                    <input type="radio" checked name="image-selected" value="hamburguer" class="radio-change" onclick="changeWelkomenImage()"/>
+                    <input type="radio" name="image-selected" value="salad" class="radio-change" onclick="changeWelkomenImage()"/>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

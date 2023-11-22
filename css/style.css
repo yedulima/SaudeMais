@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFCF2;
+    overflow-x: hidden;
+}
+
+.container-header {
+    display: flex;
+    height: 9vh;
+    width: 100vw;
+    background-color: #F97B22;
+    position: fixed;
+}
+
+.container-header-logo_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+/*
+Span é Semi bold
+Cor: #FEE8B0
+Tamanho: 1.3rem
+*/
+.container-header-logo_text span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #FEE8B0;
+    font-size: 1.3rem;
+}
+
+.container-header-navbar {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    padding-right: 10rem;
+}
+
+
+.container-header-navbar li {
+    list-style: none;
+}
+
+/*
+Cada link é Semi bold
+Cor: #FEE8B0
+Tamanho: 1rem
+*/
+.container-header-navbar li a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #FEE8B0;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.container-main-welkomen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-main-welkomen-text_area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.container-main-welkomen-text_area-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.container-main-welkomen-text_area-title span {
+    font-weight: 700;
+    color: #F97B22;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    letter-spacing: .6rem;
+}
+
+.container-main-welkomen-text_area-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 25%;
+    width: 67%;
+    margin-right: 5rem;
+}
+
+.container-main-welkomen-text_area-text p {
+    text-align: left;
+    font-weight: 600;
+    color: #4C3D3D;
+    font-size: .83rem;
+    letter-spacing: .05rem;
+}
+
+.welkomen-button {
+    height: 5%;
+    width: 30%;
+    margin-right: 18rem;
+    border-radius: .9rem;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #F97B22;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    border: .1rem solid #F97B22;
+}
+
+.container-main-welkomen-img_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.container-main-welkomen-img_area-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+
+.container-main-welkomen-img_area-image img {
+    width: 70%;
+}
+
+.container-main-welkomen-img_area-changes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+}
