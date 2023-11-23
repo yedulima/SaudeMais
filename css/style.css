@@ -170,6 +170,8 @@ Tamanho: 1rem
 
 .container-main-welkomen-img_area-image img {
     width: 70%;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .container-main-welkomen-img_area-changes {
@@ -181,6 +183,9 @@ Tamanho: 1rem
 }
 
 .container-main-welkomen-img_area-changes input[type="radio"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: .15rem solid #4C3D3D;
     border-radius: 50%;
     width: 1.5em;
@@ -195,7 +200,9 @@ Tamanho: 1rem
     content: "";
     background-color: none;
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     visibility: hidden;
     border-radius: 50%;
 }
@@ -205,9 +212,10 @@ Tamanho: 1rem
     background-color: #4C3D3D;
     width: .8em;
     height: .8em;
-    left: .2em;
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     visibility: visible;
     border-radius: 50%;
 }
