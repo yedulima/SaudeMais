@@ -18,6 +18,7 @@
     width: 100vw;
     background-color: #F97B22;
     position: fixed;
+    z-index: 1;
 }
 
 .container-header-logo_text {
@@ -218,6 +219,61 @@ Tamanho: 1rem
     align-items: center;
     visibility: visible;
     border-radius: 50%;
+}
+
+.container-main-about {
+    height: 100vh;
+    width: 100%;
+}
+
+.container-main-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main-about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    background-color: red;
+}
+
+.container-main-about-title-title {
+    display: flex;
+    justify-content: center;
+}
+
+.container-main-about-title-title #eight {
+    font-family: 'Montserrat', sans-serif;
+    color: transparent;
+    font-size: 15rem;
+    /*
+    -webkit-text-stroke-width: .2rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #F97B22;
+
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    */
+
+    color:blue;
+  text-shadow: 
+    1px 0 0 white, /*right */
+    0 1px 0 white, /*top */
+    -1px 0 0 white, /*left */
+    0 -1px 0 white; /*bottom */
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+    #eight {
+         color: transparent;
+    }
 }
 
 /* == RESPONSIBILITY == */
