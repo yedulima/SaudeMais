@@ -93,7 +93,6 @@ Tamanho: 1rem
     align-items: center;
     height: 40%;
     width: 100%;
-    margin-top: 5rem;
 }
 
 .container-main-welkomen-text_area-title span {
@@ -104,13 +103,21 @@ Tamanho: 1rem
     letter-spacing: .6rem;
 }
 
+.container-main-welkomen-text_area p {
+    width: 54%;
+    text-align: left;
+    font-weight: 600;
+    color: #4C3D3D;
+    font-size: .83rem;
+    letter-spacing: .05rem;
+}
+
 .container-main-welkomen-text_area-text {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     height: 25%;
-    width: 67%;
-    margin-right: 5rem;
+    width: 53%;
 }
 
 .container-main-welkomen-text_area-text p {
@@ -124,6 +131,7 @@ Tamanho: 1rem
 .welkomen-button {
     height: 5%;
     width: 30%;
+    margin-top: 3rem;
     margin-right: 14rem;
     border-radius: .9rem;
     outline: none;
@@ -198,9 +206,145 @@ Tamanho: 1rem
     width: .8em;
     height: .8em;
     left: .2em;
-    top: .12em;
     position: relative;
     display: inline-block;
     visibility: visible;
     border-radius: 50%;
+}
+
+/* == RESPONSIBILITY == */
+
+/* GALAXY S10 */
+
+@media screen and (min-width: 0) and (max-width: 719px) {
+
+    /* == MAIN AREA == */
+
+    /* Nav bar */
+    .container-header-logo_text {
+        width: 50%;
+    }
+
+    .container-header-logo_text span {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .container-header-navbar {
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    .container-header-navbar li a {
+        font-size: .9rem;
+        padding-right: 0;
+    }
+
+    /* Main welkomen */
+
+    .container-main-welkomen-text_area {
+        width: 90%;
+    }
+
+    .container-main-welkomen-text_area p {
+        width: 100%;
+        text-align: left;
+        font-weight: 600;
+        color: #4C3D3D;
+        font-size: .83rem;
+        letter-spacing: .05rem;
+    }
+
+    .container-main-welkomen-text_area-title span {
+        margin-top: 1rem;
+        font-size: 2.5rem;
+        letter-spacing: .5rem;
+    }
+
+    .container-main-welkomen-img_area {
+        display: none;
+    }
+
+    .welkomen-button {
+        font-size: .95rem;
+        width: 65%;
+        height: 7%;
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+        margin-right: 7.1rem;
+    }
+}
+
+/* KINDLE */
+@media screen and (min-width: 720px) and (max-width: 1279px) {
+
+    /* == MAIN AREA == */
+
+    /* Nav bar */
+    .container-header-logo_text {
+        width: 40%;
+    }
+
+    .container-header-logo_text span {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .container-header-navbar {
+        justify-content: flex-end;
+        width: 60%;
+    }
+
+    .container-header-navbar li a {
+        font-size: 1.4rem;
+        padding: 0;
+        margin-left: 4rem;
+    }
+
+    /* Main welkomen */
+
+    .container-main-welkomen-text_area {
+        width: 100%;
+    }
+
+    .container-main-welkomen-text_area p {
+        width: 80%;
+        text-align: left;
+        font-weight: 600;
+        color: #4C3D3D;
+        font-size: .9rem;
+        letter-spacing: .05rem;
+    }
+
+    .container-main-welkomen-text_area-title {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-main-welkomen-text_area-title span {
+        height: 60%;
+        width: 80%;
+        margin-top: 1rem;
+        font-size: 5rem;
+        letter-spacing: .5rem;
+    }
+
+    .container-main-welkomen-img_area {
+        display: none;
+    }
+
+    .welkomen-button {
+        border: .15rem solid #F97B22;
+        font-size: 2rem;
+        width: 45%;
+        height: 5%;
+        margin: 0;
+        margin-top: 1rem;
+        padding: 0;
+        margin-right: 17.5rem;
+        margin-top: 3rem;
+    }
 }
