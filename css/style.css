@@ -251,7 +251,6 @@ Tamanho: 1rem
 .container-main-about-title-title #eight {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: transparent;
     font-size: 20rem;
 
     color: #FFFCF2;
@@ -308,6 +307,54 @@ Tamanho: 1rem
     border: none;
     background-color: #F97B22;
     color: #F97B22;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-main hr {
+    margin-top: 1rem;
+    width: 75%;
+    height: .25%;
+    outline: none;
+    border: none;
+    background-color: #F97B22;
+    color: #F97B22;
+}
+
+.container-main-topics-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.container-main-topics-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.container-main-topics-images img {
+    width: 70%;
+}
+
+.container-main-topics-text-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 96%;
+    height: 30%;
 }
 
 /* == RESPONSIBILITY == */
