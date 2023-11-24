@@ -85,9 +85,18 @@ Tamanho: 1rem
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     height: 100%;
     width: 50%;
+}
+
+.container-main-welkomen-text_area-ajust {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
 }
 
 .container-main-welkomen-text_area-title {
@@ -104,10 +113,11 @@ Tamanho: 1rem
     text-transform: uppercase;
     font-size: 3.8rem;
     letter-spacing: .6rem;
+    width: 100%;
 }
 
 .container-main-welkomen-text_area p {
-    width: 54%;
+    width: 100%;
     text-align: left;
     font-weight: 600;
     color: #4C3D3D;
@@ -133,9 +143,8 @@ Tamanho: 1rem
 
 .welkomen-button {
     height: 5%;
-    width: 30%;
+    width: 50%;
     margin-top: 3rem;
-    margin-right: 14rem;
     border-radius: .9rem;
     outline: none;
     background: none;
