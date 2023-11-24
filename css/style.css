@@ -345,6 +345,15 @@ Tamanho: 1rem
     height: 100%;
 }
 
+.container-main-topics-text-ajust {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
 .container-main-topics-images {
     display: flex;
     justify-content: center;
@@ -359,10 +368,10 @@ Tamanho: 1rem
 
 .container-main-topics-text-title {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    width: 96%;
+    width: 75%;
     height: 30%;
 }
 
