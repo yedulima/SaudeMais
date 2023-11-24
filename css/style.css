@@ -69,6 +69,8 @@ Tamanho: 1rem
     margin-left: 2rem;
 }
 
+/* WELKOMEN */
+
 .container-main-welkomen {
     display: flex;
     justify-content: center;
@@ -221,15 +223,15 @@ Tamanho: 1rem
     border-radius: 50%;
 }
 
-.container-main-about {
-    height: 100vh;
-    width: 100%;
-}
+/* ABOUT */
 
 .container-main-about {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
 }
 
 .container-main-about-title {
@@ -239,7 +241,6 @@ Tamanho: 1rem
     flex-direction: column;
     width: 80%;
     height: 70%;
-    background-color: red;
 }
 
 .container-main-about-title-title {
@@ -249,31 +250,64 @@ Tamanho: 1rem
 
 .container-main-about-title-title #eight {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: transparent;
-    font-size: 15rem;
-    /*
-    -webkit-text-stroke-width: .2rem;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-color: #F97B22;
+    font-size: 20rem;
 
-    color: black;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    */
-
-    color:blue;
-  text-shadow: 
-    1px 0 0 white, /*right */
-    0 1px 0 white, /*top */
-    -1px 0 0 white, /*left */
-    0 -1px 0 white; /*bottom */
+    color: #FFFCF2;
+    text-shadow: 
+        8px 0 0 #F97B22, /*right */
+        0 8px 0 #F97B22, /*top */
+        -8px 0 0 #F97B22, /*left */
+        0 -8px 0 #F97B22; /*bottom */
 }
 
 @supports (-webkit-text-fill-color: transparent) {
     #eight {
          color: transparent;
     }
+}
+
+.container-main-about-title-title-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin-left: 3rem;
+}
+
+.container-main-about-title-title-text span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #F97B22;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    word-spacing: .7rem;
+    text-align: left;
+}
+
+.container-main-about-text {
+    width: 65%;
+    height: 10%;
+}
+
+.container-main-about-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+    text-align: left;
+    width: 100%;
+}
+
+.container-main-about hr {
+    margin-top: 1rem;
+    width: 75%;
+    height: .25%;
+    outline: none;
+    border: none;
+    background-color: #F97B22;
+    color: #F97B22;
 }
 
 /* == RESPONSIBILITY == */
